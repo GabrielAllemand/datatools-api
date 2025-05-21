@@ -1,8 +1,8 @@
-# 🚀 Mini API Python - GCP Cloud Run
+#  Mini API Python - GCP Cloud Run
 
-## 🎯 Objectif
+##  Objectif :
 
-Ce projet a été réalisé en équipe dans le cadre d'un mini-projet pédagogique.  
+Noua avons réalisé ce projet en équipe dans le cadre d'un mini-projet pédagogique.  
 L'objectif était de développer une API en Python (FastAPI), conteneurisée avec Docker, déployée sur Google Cloud Run, et capable :
 
 - de lire et écrire un fichier dans un bucket Google Cloud Storage (GCS)
@@ -11,36 +11,40 @@ L'objectif était de développer une API en Python (FastAPI), conteneurisée ave
 
 ---
 
-## 📌 Endpoints de l’API
+##  Endpoints de l’API :
 
 | Méthode | Endpoint    | Description |
 |---------|-------------|-------------|
 | GET     | `/hello`    | Message de bienvenue |
 | GET     | `/status`   | Date et heure du serveur |
-| GET     | `/data`     | Récupère un fichier JSON ou CSV depuis GCS |
+| GET     | `/data`     | Lit un fichier JSON depuis GCS |
 | POST    | `/data`     | Ajoute une entrée dans le fichier GCS |
 | GET     | `/joke`     | Renvoie une blague générée par Vertex AI |
 
 ---
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées :
 
 - Python (FastAPI)
+- Vertex AI (Gemini)
 - Docker
+- GitHub
 - Google Cloud Storage (GCS)
-- Vertex AI (LLM API)
-- Cloud Run (déploiement serverless)
-- Google Cloud IAM (compte de service)
-- Git & GitHub
+- Cloud Run 
 
 ---
+## Lancer le projet en ligne :
 
-## ⚙️ Lancer le projet en local
+Lien du Cloud Run : https://datatools-api-861679002038.europe-west1.run.app
+
+##  Lancer le projet en local :
 
 1. Cloner le projet :
 
 ```bash
-git clone https://github.com/<ton-utilisateur>/<ton-repo>.git
-cd <ton-repo>
+git clone https://github.com/GabrielAllemand/datatools-api.git
+cd datatools-api
 ```
 ```
+
+
