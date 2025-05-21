@@ -11,7 +11,7 @@ L'objectif était de développer une API en Python (FastAPI), conteneurisée ave
 
 ---
 
-##  Endpoints de l’API :
+##  Fonctionnalités de l’API :
 
 | Méthode | Endpoint    | Description |
 |---------|-------------|-------------|
